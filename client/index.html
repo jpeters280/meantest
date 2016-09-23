@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app = "app">
+<head>
+  <title>Q&A</title>
+  <script type="text/javascript" src="angular/angular.js"></script>
+  <script type="text/javascript" src="angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="assets/factories/factories.js"></script>
+  <script src="assets/controllers/controllers.js"></script>
+  <script type="text/javascript">
+    var person = prompt("Please enter your name");
+    // var success_message = false;
+  </script>
+</head>
+<body>
+  <a href="#/">Home</a> | <a href="#/new_question">Add a Question</a>
+  <div ng-view="">
+  </div>
+</body>
+</html>
